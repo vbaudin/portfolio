@@ -19,7 +19,8 @@
     "add": "git add .",
     "commit": "git commit -m Autopush",
     "push": "git push",
-    "pull": "git pull"
+    "pull": "git pull",
+    "autopush": "npm run add && npm run commit && npm run push"
   },
   "eslintConfig": {
     "extends": [
